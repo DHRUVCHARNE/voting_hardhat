@@ -6,7 +6,7 @@
 
 ## Project overview
 
-This repository contains a small voting smart contract `contracts/Voting.sol` and a set of unit tests written in Solidity (`tests/Voting.t.sol`) . A TypeScript deploy script (`scripts/deploy.ts`) shows how to deploy the contract using Hardhat's scripting environment and Viem client, It also has a backend rest api server to interact with the deployed smart contract named voting_backend [here](https://github.com/DHRUVCHARNE/voting_backend)
+This repository contains a small voting smart contract `contracts/Voting.sol` and a set of unit tests written in Solidity (`tests/Voting.t.sol`) . A TypeScript deploy script (`scripts/deploy.ts`) shows how to deploy the contract using Hardhat's scripting environment and Viem client, It also has a backend rest api server to interact with the deployed smart contract named voting_backend [here](https://github.com/DHRUVCHARNE/voting_backend), and also a complete explanation of the whole project with tests and live demo are [here](https://www.youtube.com/watch?v=Mkg2qdqj4YE).
 
 The contract lets the owner add candidates, allows any address to vote for **one** candidate, and exposes helper views such as `getCandidates()` and `getWinner()`.
 
